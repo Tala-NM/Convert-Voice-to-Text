@@ -14,6 +14,7 @@ The Convert Voice to Text project provides a user-friendly web interface that al
 
 1. Create an `index.html` file in the `speech-to-text` directory.
 2. The HTML file creates a window with two buttons for language selection (English, Arabic) and a button to save the data to the database.
+![Web Page](IMG_5151.jpg)
 
 ### Step 3: Create CSS File
 
@@ -44,6 +45,8 @@ CREATE TABLE IF NOT EXISTS speech_texts (
     timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
+![database](IMG_5152.jpg)
+
 ### Link
 Access the live project at http://localhost/speech-to-text/index.html and explore the capabilities of real-time voice-to-text conversion.
 
