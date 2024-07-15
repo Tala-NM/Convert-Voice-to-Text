@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;  
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 30px;  
+    margin-bottom: 40px;  
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;  
+    margin-bottom: 10px;  
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: white;
+    color: pink;
+}
+
+.lang-button {
+    background-color: pink;
+    color: white;
+}
+
+.save-button {
+    background-color: pink;
+    color: white;
+    margin-top: 15px;
+}
+
+#result {
+    font-size: 18px;
+    color: pink;  
+}
+
+form {
+    margin-top: 20px;
+}
