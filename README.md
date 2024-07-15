@@ -14,6 +14,7 @@ The Convert Voice to Text project provides a user-friendly web interface that al
 
 1. Create an `index.html` file in the `speech-to-text` directory.
 2. The HTML file creates a window with two buttons for language selection (English, Arabic) and a button to save the data to the database.
+
 ![Web Page](IMG_5151.jpg)
 
 ### Step 3: Create CSS File
@@ -26,10 +27,16 @@ The Convert Voice to Text project provides a user-friendly web interface that al
 1. Create a `script.js` file in the `speech-to-text` directory.
 2. This file controls the listening and saving of the spoken text.
 
+![english button](IMG_5157.jpg)
+
+![arabic button](IMG_5156.jpg)
+
 ### Step 5: Create PHP File
 
 1. Create a `save_text.php` file in the `speech-to-text` directory.
 2. This file saves the text to the database.
+
+![save button](IMG_5155.jpg)
 
 ### Step 6: Create Database and Table
 
