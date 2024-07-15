@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Recognition System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Voice Recognition System</h1>
+        <div class="buttons">
+            <button id="startEnglish" class="lang-button">English</button>
+            <button id="startArabic" class="lang-button">Arabic</button>
+        </div>
+        <p id="result"></p>
+        <form id="saveForm" method="POST" action="save.php">
+            <input type="hidden" name="language" id="language">
+            <input type="hidden" name="text" id="text">
+            <button type="submit" class="save-button">Save to Database</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
