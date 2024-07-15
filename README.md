@@ -43,6 +43,7 @@ CREATE TABLE IF NOT EXISTS speech_texts (
     text TEXT NOT NULL,
     timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
+```
+### Link
 Access the live project at http://localhost/speech-to-text/index.html and explore the capabilities of real-time voice-to-text conversion.
 
